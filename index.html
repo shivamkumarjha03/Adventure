@@ -12,7 +12,7 @@
         <ul class="nav-link">
             <li class="active"><a href="#Home"></a>Home</li>
             <li><a href="#event"></a>Event</li>
-            <li><a href="#Explore"></a>Explore</li>
+            <li><a href="#search"></a>Explore India</li>
             <li><a href="#About"></a>About</li>
             <li class="ctn"><a href="#Contact"></a>Contact</li>
         </ul>
@@ -70,6 +70,27 @@
                     <img src="./img/hero-1.jpg" alt="">
                     <img src="./img/OIP (4).jpeg" alt="">
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Search Section -->
+    <section id="search" class="search-section">
+        <div class="title">
+            <h1>Explore India</h1>
+            <div class="line"></div>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <select id="stateSelect" class="state-select">
+                    <option value="">Select a State</option>
+                </select>
+                <select id="citySelect" class="city-select" style="display: none;">
+                    <option value="">Select a City</option>
+                </select>
+                <button class="search-btn">Search</button>
+            </div>
+            <div id="searchResults" class="search-results">
+                <!-- Results will be populated by JavaScript -->
             </div>
         </div>
     </section>
